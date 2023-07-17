@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(216, 12%, 8%) ;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: hsl(0, 0%, 100%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 18px;
+    padding: 20px;
+}
+.icon{  
+    background-color: hsl(180, 2%, 11%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h2{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    padding-top: 12px;
+}
+p{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.rating-container{
+    display: flex;
+    margin: 20px 0;
+}
+.rating-circle{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 50%;
+    background-color: hsl(180, 2%, 11%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.rating-circle:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+.selected{
+    background-color: hsl(25, 97%, 53%);
+}
+.submit-button{
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+.submit-button.submitted{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+
+.new-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: hsl(0, 0%, 100%);
+} 
+.container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+}
+.image{
+    margin: 0 auto;
+}
+.text{
+    text-align: center;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
