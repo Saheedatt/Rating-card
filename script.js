@@ -9,6 +9,9 @@ ratings.forEach(circle =>{
         circle.classList.add('selected');
     })
 });
+submitButton.addEventListener('click', () => {
+  window.location.href = 'submit.html';
+});
 
 submitButton.addEventListener('click', (displayCard)=>{
   submitButton.classList.toggle('submitted');
