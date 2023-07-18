@@ -12,9 +12,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -34,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://github.com/Saheedatt/Rating-card)
+- Live Site URL: [Live site URL ](https://saheedatt.github.io/Rating-card/)
 
 ## My process
 
@@ -61,4 +59,4 @@ window.location.href also took a while to figure out but I guess that is what "u
 In future projects, I plan to focus on understanding the use of Event handlers better. I also want to be able to create multiple page functionality using Javascript.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Saheedatt)
+- Frontend Mentor - [@Saheedatt](https://www.frontendmentor.io/profile/Saheedatt)
